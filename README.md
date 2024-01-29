@@ -1,6 +1,6 @@
 # Automatic version bump
 
-Automatically update a package.json version after a push. This action update the last pushed commit instead of creating
+Automatically update a pom.xml version after a push. This action update the last pushed commit instead of creating
 a new commit.
 
 Requires NodeJS 15+
@@ -9,7 +9,7 @@ Requires NodeJS 15+
 
 ### Unprotected branch 
 
-The following action will update your package.json on push on the dev branch:
+The following action will update your pom.xml on push on the dev branch:
 
     name: CI / Bump version
     on:
@@ -31,7 +31,7 @@ The following action will update your package.json on push on the dev branch:
 
 ### Protected branch
 
-The following action will update your package.json on push on the dev branch, you will need to create a token with push
+The following action will update your pom.xml on push on the dev branch, you will need to create a token with push
 right on the specified branch
 
     name: CI / Bump version
