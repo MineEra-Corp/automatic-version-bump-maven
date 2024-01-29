@@ -1,4 +1,4 @@
-name: automatic-version-bump
+name: automatic-version-bump-maven
 description: Automatically bump your pom.xml version following semver rules
 runs:
   using: 'node20'
