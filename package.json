@@ -1,7 +1,7 @@
 {
   "name": "automatic-version-bump",
   "version": "1.0.3",
-  "description": "Automatically bump your package.json version following semver rules",
+  "description": "Automatically bump your pom.xml version following semver rules",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "ncc build ./src/index.ts --watch",
@@ -15,7 +15,8 @@
     "action",
     "bump",
     "version",
-    "semver"
+    "semver",
+    "maven"
   ],
   "author": "Wawa27",
   "license": "ISC",
@@ -24,9 +25,11 @@
     "@actions/exec": "^1.0.4",
     "@actions/github": "^4.0.0",
     "edit-json-file": "^1.5.0",
+    "fast-xml-parser": "^4.3.3",
     "ts-node": "^10.0.0"
   },
   "devDependencies": {
+    "@vercel/ncc": "^0.38.1",
     "@types/chai": "^4.2.15",
     "@types/edit-json-file": "^1.4.0",
     "@types/jest": "^26.0.20",
